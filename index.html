@@ -1,20 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Abacus Convention Center</title>
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <!-- Bootstrap css file -->
-    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/bootstrap.css" />
     <!-- Custom css file  -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    <header>
-        
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="">
+      <nav class="navbar navbar-expand-lg p-5">
+        <div class="container">
+          <a class="navbar-brand display-1 fw-bold" href="#"
+            >Abacus Convention Center</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-black fw-semibold fs-4 active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black fw-semibold fs-4" href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black fw-semibold fs-4" href="#"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black fw-semibold fs-4" href="#"
+                  >Subscribe</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
+    <main>
+      <section>
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="banner-img d-flex justify-content-center align-items-center"
+              >
+                <div class="text-white text-center">
+                  <h1 class="display-2 fw-semibold">
+                    The perfect venue for your <br />
+                    next event
+                  </h1>
+                  <p class="display-6 text-white">
+                    Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                    dolor do amet sint. Velit officia consequat duis enim velit
+                  </p>
+                  <button
+                    class="btn btn-light text-primary fw-bold display-5 px-5 py-3"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="banner-img d-flex justify-content-center align-items-center"
+              >
+                <div class="text-white text-center">
+                  <h1 class="display-4 fw-semibold">
+                    The perfect venue for your <br />
+                    next event
+                  </h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                    dolor do amet sint. Velit officia consequat duis enim velit
+                  </p>
+                  <button
+                    class="btn btn-light text-primary fw-bold display-5 px-5 py-3"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="banner-img d-flex justify-content-center align-items-center"
+              >
+                <div class="text-white text-center">
+                  <h1 class="display-4 fw-semibold">
+                    The perfect venue for your <br />
+                    next event
+                  </h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                    dolor do amet sint. Velit officia consequat duis enim velit
+                  </p>
+                  <button
+                    class="btn btn-light text-primary fw-bold display-5 px-5 py-3"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="banner-img d-flex justify-content-center align-items-center"
+              >
+                <div class="text-white text-center">
+                  <h1 class="display-4 fw-semibold">
+                    The perfect venue for your <br />
+                    next event
+                  </h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua <br />
+                    dolor do amet sint. Velit officia consequat duis enim velit
+                  </p>
+                  <button
+                    class="btn btn-light text-primary fw-bold display-5 px-5 py-3"
+                  >
+                    Book Now
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="position-relative">
+        <div
+          class="toast toast-msg align-items-center py-2 show position-absolute top-0 bottom-0 my-auto"
+          role="alert"
+          aria-live="assertive"
+          aria-atomic="true"
+        >
+          <div class="d-flex align-items-center">
+            <img src="./assets/icons/Vector.svg" class="mx-2" alt="Vector" />
+            <span class="mx-2">Hello, world! This is a toast message.</span>
+
+            <button
+              type="button"
+              class="btn-close me-2 m-auto"
+              data-bs-dismiss="toast"
+              aria-label="Close"
+            ></button>
+          </div>
+        </div>
+        <div class="container py-5 my-5">
+          <div class="row">
+            <div class="col-md-6">
+              <img
+                class="img-fluid w-100 d-none d-md-block"
+                src="./assets/images/wedding.png"
+                alt=""
+              />
+            </div>
+            <div class="col-md-6 d-flex align-items-center">
+              <div>
+                <h2 class="fw-bold text-black display-5">
+                  Every moment is Precious
+                </h2>
+                <p class="text-dark-emphasis fw-bold fs-5">
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                  <br />
+                  do amet sint. Velit officia consequat duis enim velit mollit.
+                  <br />
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+                <img
+                  class="img-fluid w-100 d-block mb-3 d-md-none"
+                  src="./assets/images/wedding.png"
+                  alt=""
+                />
+                <button
+                  class="btn bg-primary text-white fs-5 fw-bold px-4 py-2"
+                >
+                  Explore our album
+                  <img src="./assets/icons/arrow-forward 1.svg" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container py-5">
+        <h2 class="text-black fw-bold text-center display-5">Our Packages</h2>
+        <div class="row my-5">
+          <div class="col-md-6 col-lg-3">
+            <div class="package border-0 text-black position-relative">
+              <span
+                class="btn-hot d-inline-block bg-danger text-white position-absolute invisible rounded-pill px-3 py-1"
+                >Hot</span
+              >
+              <h3 class="fw-bold">$300</h3>
+              <h4 class="fw-bold">Business fair</h4>
+              <p class="text-secondary hover-white">
+                For most businesses event <br />
+                like book fair, craft fair.
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i>
+                <span>limited space access</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Secuirty facility</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>event support</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Decoration design</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Per day bill</span>
+              </p>
+              <span
+                class="rounded-pill w-100 button-plan d-block text-center bg-danger-subtle border-0 text-primary px-4 py-2 mt-2 fw-bold"
+              >
+                Choose Plan
+              </span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="package border-0 text-black position-relative">
+              <span
+                class="btn-hot d-inline-block bg-danger text-white position-absolute invisible rounded-pill px-3 py-1"
+                >Hot</span
+              >
+              <h3 class="fw-bold">$500</h3>
+              <h4 class="fw-bold">wedding basic</h4>
+              <p class="text-secondary hover-white">
+                For weddings with basic plan
+                <br />and limited item
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i>
+                <span>Full space access</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Food arrangement </span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>mangement support </span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Decoration design</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Billed as shift </span>
+              </p>
+              <span
+                class="rounded-pill w-100 button-plan d-block text-center bg-danger-subtle border-0 text-primary px-4 py-2 mt-2 fw-bold"
+              >
+                Choose Plan
+              </span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="package border-0 text-black position-relative">
+              <span
+                class="btn-hot d-inline-block bg-danger text-white position-absolute invisible rounded-pill px-3 py-1"
+                >Hot</span
+              >
+              <h3 class="fw-bold">$800</h3>
+              <h4 class="fw-bold">Wedding plus</h4>
+              <p class="text-secondary hover-white">
+                For most weddings with <br />
+                premium plans
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i>
+                <span>Full space access</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Dedicated team </span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Buffet food </span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i
+                ><span>premium Decoration </span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>pay as plan </span>
+              </p>
+              <span
+                class="rounded-pill w-100 button-plan d-block text-center bg-danger-subtle border-0 text-primary px-4 py-2 mt-2 fw-bold"
+              >
+                Choose Plan
+              </span>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="package border-0 text-black position-relative">
+              <span
+                class="btn-hot d-inline-block bg-danger text-white position-absolute invisible rounded-pill px-3 py-1"
+                >Hot</span
+              >
+              <h3 class="fw-bold">$1200</h3>
+              <h4 class="fw-bold">Corporate event</h4>
+              <p class="text-secondary hover-white">
+                For most corporate business <br />
+                events
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i>
+                <span>limited space access</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Secuirty facility</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>event support</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Decoration design</span>
+              </p>
+              <p class="text-secondary hover-white">
+                <i class="fa-solid fa-check"></i><span>Per day bill</span>
+              </p>
+              <span
+                class="rounded-pill w-100 button-plan d-block text-center bg-danger-subtle border-0 text-primary px-4 py-2 mt-2 fw-bold"
+              >
+                Choose Plan
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Bootstrao js file -->
-   <script src="./js/bootstrap.js"></script> 
-</body>
+    <script src="./js/bootstrap.js"></script>
+  </body>
 </html>
