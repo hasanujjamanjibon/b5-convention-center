@@ -8,6 +8,8 @@
   height: min-content;
   border-left: 10px solid #0b5ed7;
   right: 20px;
+  top: 0;
+  bottom: 0;
 }
 .fa-solid {
   color: blue;
@@ -49,9 +51,8 @@
 }
 @media screen and (max-width: 768px) {
   .toast-msg {
-    left: 0;
+    left: 0 !important;
     top: 0 !important;
-    right: 0;
-    margin: auto;
+    right: 0 !important;
   }
 }
